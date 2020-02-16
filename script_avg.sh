@@ -36,15 +36,7 @@ awk '{ total += $1 } END { print total/NR }' /disk_avg >> /var/www/html/disk.htm
 
 
 
-echo -n "" > /disk_out
-echo -n "" > /mem_out
-echo -n "" > /cpu_out
 
-echo -n "" > /disk_avg
-echo -n "" > /disk_avg_av
-echo -n "" > /mem_avg
-echo -n "" > /cpu_avg
-echo -n "" > /cpu_used
 
 
 
